@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">Игры Андроид</string>
+
+    <!-- API keys -->
+    <string name="google_server_key"></string>
+    <string name="google_android_key"></string>
+
+    <!-- About text, you can use basic html, stay between [ and ] -->
+    <string name="about_text"><![CDATA[
+    <b>Версия 1.0</b>
+    <br><br>Спасибо, что скачали наше приложение.<br><br>
+    ]]></string>
+
+    <!-- Enter your Google Play billing details to enable In-App purchases -->
+    <string name="google_play_license"></string>
+    <string name="product_id">add_off_product</string>
+
+    <!-- Enter a ADMOB ID if you would like to display ads-->
+    <string name="admob_banner_id"></string>
+    <string name="admob_interstitial_id"></string>
+
+    <!-- Strings for optional translation below this line -->
+
+    <!--  webview  -->
+    <string name="webview_title">Игры Андроид</string>
+
+    <string name="web_share_begin">"Смотри, что я видел в приложении "" </string>
+
+    <!-- media viewer-->
+    <string name="volume_low">Turn your volume up!</string>
+    <string name="file_audio">Audio</string>
+    <string name="file_video">Video</string>
+    <string name="file_image">Image</string>
+    <string name="now_playing">Now playing</string>
+    <string name="notification_playing">Playing audio - Live Stream</string>
+    <string name="error_retry">Failed to connect to stream... We have restarted the mediadecoder, please try again.</string>
+    <string name="radio_playing_other">Already Playing another station. Press stop and select play again to play the station you have just selected.</string>
+    <string name="downloadmanager_disabled">Download manager needs to be enabled</string>
+
+    <!-- favorites -->
+    <string name="item_del_text">Очистить \"Избранное\"?</string>
+    <string name="item_del_confirmation">Да</string>
+    <string name="no_favorites">Здесь отображаются материалы, добавленные в \"Избранное\"</string>
+    <string name="favorite_success">Материал добавлен в \"Избранное\"</string>
+    <string name="favorite_duplicate">Материал уже добавлен в \"Избранное\"</string>
+    <string name="favorite_menu_delete">Удалить из избранного</string>
+
+    <!-- settings -->
+    <string name="settings_general_summary">Сведения о имени пользователя и пароле</string>
+    <string name="settings_general">Общие</string>
+
+    <string name="settings_showmenu_summary">Да/нет</string>
+    <string name="settings_showmenu">Показать боковое меню при старте приложения</string>
+
+    <string name="settings_fontsize_summary">Размер текста статей</string>
+    <string name="settings_fontsize">Размер текста</string>
+
+    <string name="settings_fontsize_xl">Очень большой</string>
+    <string name="settings_fontsize_l">Большой</string>
+    <string name="settings_fontsize_m">Стандартный</string>
+    <string name="settings_fontsize_s">Маленький</string>
+    <string name="settings_fontsize_xs">Очень маленький</string>
+
+    <string name="settings_other_summary">Другие сведения</string>
+    <string name="settings_other">Другое</string>
+
+    <string name="settings_aboutus_summary">Информация о нашем приложении</string>
+    <string name="settings_aboutus">О приложении</string>
+
+    <string name="settings_rate_summary">Рекомендуйте это приложение другим пользователям</string>
+    <string name="settings_rate">Оцените приложение</string>
+
+    <string name="settings_billing_summary">Управление покупками в приложения</string>
+    <string name="settings_billing">Покупки в приложении</string>
+
+    <string name="settings_purchase_summary">Удаление рекламных объявлений и разблокирование содержимого</string>
+    <string name="settings_purchase">Отключение рекламы</string>
+
+    <string name="settings_restore_purchase_success">Предыдущие покупки были восстановлены</string>
+    <string name="settings_purchase_success">Предыдущие покупки были восстановлены</string>
+    <string name="settings_purchase_fail">Не удалось выполнить покупку</string>
+
+    <string name="dialog_purchase_title">Содержимое заблокировано</string>
+    <string name="dialog_purchase">Для просмотра этого содержимого необходимо разблокировать полную версию, сделав разовую покупку.\n\nЭто также приведет к удалению рекламных объявлений в приложении</string>
+
+    <!-- Wordpress -->
+    <string name="wordpress_subtitle_start">"Опубликовано "</string>
+    <string name="wordpress_subtitle_end">" автором "</string>
+    <string name="ok">Ok</string>
+
+
+
+    <!-- general-->
+    <string name="settings">Настройки</string>
+    <string name="favorites">Избранное</string>
+    <string name="invalid_configuration">Configuration could not be loaded</string>
+    <string name="about_header">О приложении</string>
+    <string name="favorite_button">Добавить в Избранное</string>
+    <string name="open_button">Открыть</string>
+    <string name="loading">Загрузка..</string>
+    <string name="downloading">Скачивание..</string>
+    <string name="no_results">Нет результатов</string>
+    <string name="cancel">Отмена</string>
+    <string name="comments">Комментарии</string>
+    <string name="share">Поделиться</string>
+    <string name="refresh">Обновить</string>
+    <string name="already_loading">Мы уже загрузили новое содержимое!</string>
+    <string name="opening_video">Открытие видео</string>
+    <string name="opening_audio">Открытие аудио</string>
+
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="permissions_required">Необходимо принять все необходимые разрешения для доступа к этому содержимому</string>
+
+    <!-- Connection dialogs -->
+    <string name="dialog_connection_title">Нет доступа к серверу</string>
+    <string name="dialog_connection_description">Мы не можем связаться с нашим API.\n\nУбедитесь, что вы установили ключи и параметры API в соответствии с документацией</string>
+    <string name="dialog_internet_title">Нет интернет-соединения</string>
+    <string name="dialog_internet_description">Нет подключения к Интернету для получения обновленного контента.\n\nДоступен просмотр только избранных/сохраненных элементов!</string>
+    <string name="save">Сохранить</string>
+
+</resources>

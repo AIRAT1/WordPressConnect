@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Android -->
+    <color name="myPrimaryColor">#4688F2</color>
+    <color name="myPrimaryDarkColor">#366AD3</color>
+    <color name="myAccentColor">#FF9800</color>
+    <color name="myDrawerBackground">#F2F2F2</color>
+    <color name="myWindowBackground">#DEDEDE</color>
+    <color name="myTextPrimaryColor">#000000</color>
+    <color name="myNavigationColor">#000000</color>
+
+    <color name="btnGray">#ffdbdbdb</color>
+
+    <!-- Regular colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_gray">#292929</color>
+    <color name="light_gray">#BDBDBD</color>
+    <color name="extra_light_gray">#ffdbdbdb</color>
+    <color name="grey_darker">#424242</color>
+    <color name="grey_dark">#606060</color>
+    <color name="grey">#c3c3c3</color>
+    <color name="grey_light">#eeeeee</color>
+    <color name="grey_lighter">#ededed</color>
+
+
+
+    <!-- progress !-->
+    <color name="progress_color">@color/grey_light</color>
+
+    <!-- Notifications -->
+
+    <color name="notification_button_pressed">#55777777</color>
+    <color name="notification_icon_background">#737373</color>
+    <color name="notification_background">@color/grey_darker</color>
+    <color name="simple_sound_cloud_notification_title">#ffffff</color>
+    <color name="simple_sound_cloud_notification_subtitle">#979797</color>
+</resources>

@@ -1,0 +1,102 @@
+[
+
+  {
+    "title":"Андроид игры",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"wordpress",
+        "arguments":[
+          "http://gameandroid.pw/",
+          "",
+          "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+        ]
+      }
+    ]
+  },{
+  "title":"Аркады",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://gameandroid.pw/",
+        "arcade",
+        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+      ]
+    }
+  ]
+},{
+  "title":"Стратегии",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://gameandroid.pw/",
+        "strategy",
+        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+      ]
+    }
+  ]
+},{
+  "title":"Экшен",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://gameandroid.pw/",
+        "action",
+        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+      ]
+    }
+  ]
+},{
+  "title":"Симуляторы",
+  "drawable":"",
+  "submenu":"",
+  "iap":false,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://gameandroid.pw/",
+        "simulation",
+        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+      ]
+    }
+  ]
+},{
+  "title":"Гонки",
+  "drawable":"",
+  "submenu":"",
+  "iap":true,
+  "tabs":[
+    {
+      "title":"",
+      "provider":"wordpress",
+      "arguments":[
+        "http://gameandroid.pw/",
+        "race",
+        "http://gameandroid-pw.disqus.com/;gameandroid-pw;%d http://gameandroid.pw/?p=%d"
+      ]
+    }
+  ]
+}
+
+
+]
