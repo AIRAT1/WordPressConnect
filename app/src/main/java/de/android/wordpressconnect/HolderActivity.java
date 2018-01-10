@@ -96,11 +96,11 @@ public class HolderActivity extends AppCompatActivity {
                 finish();
                 return true;
             case R.id.settings:
-                // openFragment(SettingsFragment.class, new String[0]);
+                 openFragment(SettingsFragment.class, new String[0]);
                 return true;
-            case R.id.favorites:
-                //openFragment(FavFragment.class, new String[0]);
-                return true;
+//            case R.id.favorites:
+//                openFragment(FavFragment.class, new String[0]);
+//                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

@@ -255,7 +255,7 @@ public class MainActivity extends AppCompatActivity implements MenuItemCallback,
     private void showInterstitial(boolean fromPager){
         //if (fromPager) return;
         if (getResources().getString(R.string.admob_interstitial_id).length() == 0) return;
-        // if (SettingsFragment.getIsPurchased(this)) return;
+        if (SettingsFragment.getIsPurchased(this)) return;
 
         if (interstitialCount == (Config.INTERSTITIAL_INTERVAL - 1)) {
             final InterstitialAd mInterstitialAd = new InterstitialAd(this);
@@ -285,12 +285,12 @@ public class MainActivity extends AppCompatActivity implements MenuItemCallback,
     private boolean isPurchased(){
         String license = getResources().getString(R.string.google_play_license);
         // if item does not require purchase, or app has purchased, or license is null/empty (app has no in app purchases)
-       /* if (!SettingsFragment.getIsPurchased(this) && !license.equals("")) {
+       if (!SettingsFragment.getIsPurchased(this) && !license.equals("")) {
             String[] extra = new String[] {SettingsFragment.SHOW_DIALOG};
             HolderActivity.startActivity(this, SettingsFragment.class, extra);
 
             return false;
-        }*/
+        }
 
         return true;
     }
@@ -347,11 +347,11 @@ public class MainActivity extends AppCompatActivity implements MenuItemCallback,
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.settings:
-                //  HolderActivity.startActivity(this, SettingsFragment.class, null);
+                  HolderActivity.startActivity(this, SettingsFragment.class, null);
                 return true;
-            case R.id.favorites:
-                //  HolderActivity.startActivity(this, FavFragment.class, null);
-                return true;
+//            case R.id.favorites:
+//                  HolderActivity.startActivity(this, FavFragment.class, null);
+//                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

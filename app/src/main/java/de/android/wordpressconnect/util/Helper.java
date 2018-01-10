@@ -13,6 +13,8 @@ import android.support.v4.view.ViewCompat;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.GooglePlayServicesUtil;
@@ -31,6 +33,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 import de.android.wordpressconnect.R;
+import de.android.wordpressconnect.SettingsFragment;
 
 public class Helper {
 
@@ -104,6 +107,14 @@ public class Helper {
      */
     public static void admobLoader(Context c, Resources resources, View AdmobView){
         String adId = resources.getString(R.string.admob_banner_id);
+        if (!adId.equals("") && !SettingsFragment.getIsPurchased(c)) {
+            AdView adView = (AdView)AdmobView;
+            adView.setVisibility(View.VISIBLE);
+
+            AdRequest.Builder adRequestBuilder = new AdRequest.Builder();
+            adRequestBuilder.addTestDevice(AdRequest.DEVICE_ID_EMULATOR);
+            adView.loadAd(adRequestBuilder.build());
+        }
 
     }
 
