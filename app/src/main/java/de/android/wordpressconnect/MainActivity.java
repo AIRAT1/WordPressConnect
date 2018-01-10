@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity implements MenuItemCallback,
             getSupportActionBar().setDisplayShowHomeEnabled(false);
         }
 
-        //Drawer
         if (!useTabletMenu()) {
             drawer = (DrawerLayout) findViewById(R.id.drawer);
             toggle = new ActionBarDrawerToggle(
